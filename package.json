@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "process_feedback.js",
   "scripts": {
-  "start": "node C:\\xampp\\htdocs\\cloud\\process_feedback.js",
+  "start": "node process_feedback.js",
   "test": "echo \"Error: no test specified\" && exit 1"
 },
   "keywords": [],
