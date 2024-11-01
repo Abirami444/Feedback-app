@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+</head>
+<body>
+  <div class="h-screen flex items-center justify-center bg-gray-100">
+    <form action="login.php" method="POST" class="p-6 bg-white rounded shadow-lg w-80">
+      <h2 class="text-lg font-bold mb-4">Login</h2>
+      <label class="block mb-2">Email</label>
+      <input type="email" name="email" required class="w-full p-2 border rounded mb-4">
+
+      <label class="block mb-2">Password</label>
+      <input type="password" name="password" required class="w-full p-2 border rounded mb-4">
+
+      <button type="submit" class="w-full p-2 bg-blue-600 text-white rounded">Login</button>
+    </form>
+  </div>
+</body>
+</html>
